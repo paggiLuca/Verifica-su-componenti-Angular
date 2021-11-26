@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondComponentComponent implements OnInit {
 
-  constructor() { }
 
+  secondo:string;
+  constructor() { 
+    this.secondo="second";
+  }
   ngOnInit(): void {
   }
 
